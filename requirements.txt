@@ -1,4 +1,7 @@
 pandas
-flask
+Flask
 numpy
+scikit-learn
+dill
+six
 -e .

@@ -1,7 +1,7 @@
 from src.entity.config_entity import DataIngestionConfig
 import os,sys
 from src.exception.exception import CustomException
-from src.logger import logging
+from src.logger import *
 from src.constants import *
 from src.entity.artifact_entity import DataIngestionArtifact
 import numpy as np
