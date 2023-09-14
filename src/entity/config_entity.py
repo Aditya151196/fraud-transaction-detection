@@ -14,4 +14,11 @@ DataValidationConfig = namedtuple("DataValidationConfig",
 detecting data drift,model drift if any
 """
 
+DataTransformationConfig = namedtuple("DataTransformationConfig",
+                                      ["transformed_train_dir",
+                                       "transformed_test_dir",
+                                       "preprocessed_object_file_path"])
+
+"""EDA and feature engineering """
+
 TrainingPipelineConfig = namedtuple("TrainingPipelineConfig",["artifact_dir"])

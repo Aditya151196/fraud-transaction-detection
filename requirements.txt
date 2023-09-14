@@ -4,4 +4,6 @@ numpy
 scikit-learn
 dill
 six
+evidently
+json
 -e .
